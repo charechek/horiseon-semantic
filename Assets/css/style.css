@@ -1,3 +1,5 @@
+/*Lines from now till next comment, are applied the whole website. Later lines are for particular elements
+Section, class or ID which line applies to, is specified before "{". Line is started with "{" and finished with "}"*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +8,7 @@
 body {
     background-color: #d9dcd6;
 }
+/*Sections from this comment till next comment, are for the top part of the website, Logo and links */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -33,13 +36,16 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/*Next line is for links only*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 p {
     font-size: 16px;
 }
+/*Next line adds a background and specifies the way how to show it*/
 .hero {
     height: 800px;
     width: 100%;
@@ -48,6 +54,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*Lines from this comment till next comment, specifies elements on the main, left side of the website, along with a photos attached*/
 .content {
     width: 75%;
     display: inline-block;
@@ -68,6 +75,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*Next two lines are meant to move the photos in the main section to the left side, or right side of the main part of the website*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,6 +84,7 @@ p {
     float: right;
     margin-left: 25px;
 }
+/*Lines from this comment till next comment are for the right-hand-side bar on the website*/
 .benefits {
     color: #ffffff;
     margin-right: 20px;
@@ -99,6 +108,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*The last two lines are applied to website's footer*/
 footer {
     padding: 30px;
     clear: both;
