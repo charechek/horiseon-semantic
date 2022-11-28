@@ -28,7 +28,7 @@ Link to repository of website:
 Use in web browser. Browse information for each section. Use the top links to move to each website's section.  
 The website is designated for desktop view, which means, the mobile devices may not display it properly,<br> unless "show in desktop mode" funtion is enabled in your mobile browser.
 
-![Screenshot of deployed website on GitHub](Assets\Capture.PNG)
+<img src="Assets\Capture.PNG" width="50%" height="50%">
 <hr>
 ## Credits
 
